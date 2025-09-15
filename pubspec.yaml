@@ -43,11 +43,11 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
+      # android:
         # This is just a dummy package, so we can use gradle to build the native
         # library with cmake
-        package: com.example.webcrypto
-        pluginClass: WebcryptoPlugin
+        # package: com.example.webcrypto
+        # pluginClass: WebcryptoPlugin
       web:
         pluginClass: WebcryptoPlugin
         fileName: src/flutter/webcrypto_plugin.dart
